@@ -35,7 +35,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -46,7 +46,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">One Million Lines</a>
+          <a class="navbar-brand" href="#jumbotron">One Million Lines</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -59,7 +59,7 @@
 
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <div class="container">
         <h1>Our goal is to inspirate <br>Monterrey to write 1,000,000</br> lines of code_</h1>
         <p>This is a template for a simple marketing or informational <strong>WEBSITE</strong>. It includes a large calout called a <strong>JUMBOTRON</strong> and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -71,7 +71,7 @@
     <div id="who">
     <div class="container homepage">
       <img src="images/Marca.png">
-      <h2>Who are you</h2>
+      <h2>Who we are</h2>
       <hr>
       <p>Lorem ipsum <a href="http://wwww.google.com" target="_blank">dolor</a> sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
     </div>
@@ -131,5 +131,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/smoothscroll.js"></script>
   </body>
 </html>
