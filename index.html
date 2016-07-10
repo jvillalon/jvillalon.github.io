@@ -63,7 +63,24 @@
       <div class="container">
         <h1>Our goal is to inspirate <br>Monterrey to write 1,000,000</br> lines of code_</h1>
         <p>This is a template for a simple marketing or informational <strong>WEBSITE</strong>. It includes a large calout called a <strong>JUMBOTRON</strong> and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <p><a class="btn btn-danger btn-lg" href="#" role="button" data-toggle="modal" data-target="#myModal">Learn more &raquo;</a></p>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
         <img src="images/code.png" title="Code.org logo" alt="Code org">
       </div>
     </div>
@@ -119,11 +136,12 @@
         <div id="container">
         <p>Diweb 2015</p>
         </div>
+        <div id="back-to-top">
+              <a href="#jumbotron"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+        </div>
       </footer>
     
-<div id="back-to-top">
-  <a href="#jumbotron"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
-</div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
